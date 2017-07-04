@@ -1,0 +1,6 @@
+.main{text-align:center;}
+.main h4{margin-top:57px;line-height:96px;height:96px;color:#020202;font-size:30px;}
+.main p{font-size:13px;line-height:23px;color:#9d9d9d;text-transform:capitalize;padding:0 110px 31px;}
+input{width:333px;height:47px;border:1px solid #ddd;border-radius: 4px;background-color:#ddd;color:#a9a9a9;font-size:10px;line-height:47px;padding:0 17px;margin-bottom:24px;}
+.textarea{width:1081px;height:248px;border: 1px solid #dcdbe0;}
+.submit{width:225px;height:57px;background-color:#ed5844;box-shadow:0 0 7px rgba(0,0,0,.5) inset;color:#fff;font-size:18px;line-height:57px;}

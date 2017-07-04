@@ -1,0 +1,44 @@
+/*头部header 页尾 footer公共区域 层叠样式表*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dt,dd,ul,ol,li,input,textarea,button{margin:0;padding:0}
+img{border:none;}/*IE 兼容*/
+ul{list-style:none;}
+a,input{text-decoration:none;}
+body{font-family: arial,"microsoft yahei","宋体","黑体";}
+/*统一预设*/
+.header{height:83px;background-color:#fff;box-shadow:0 2px 5px rgba(0,0,0,.2);z-index: 2;position:relative;}
+.inner{width:1140px;margin:0 auto;}/*统一居中样式*/
+.logo{padding:17px 152px 17px 0;}
+.inner li,.logo{float:left;}
+.inner .icon{float:right;margin-top:29px;}
+.inner .icon a{float:left;display:block;margin-left:7px;width:23px;height:22px;background:url(../images/s-icons.png) no-repeat -242px -7px;}
+.inner .icon .tw{background-position:-268px -7px;}
+.inner .icon .wifi{background-position:-294px -7px;}
+.inner .icon .v{background-position:-320px -7px;}
+.inner .icon .you{background-position:-346px -7px;}
+.inner .icon .in{background-position:-372px -7px;}
+.inner .icon .fb:hover{background-position:-242px -46px;}
+.inner .icon .tw:hover{background-position:-268px -46px;}
+.inner .icon .wifi:hover{background-position:-294px -46px;}
+.inner .icon .v:hover{background-position:-320px -46px;}
+.inner .icon .you:hover{background-position:-346px -46px;}
+.inner .icon .in:hover{background-position:-372px -46px;}
+.nav a{padding:0 24px;display:block;color:#465248;font-size:15px;line-height:80px;height:80px;border-top:3px solid transparent;}
+.nav .active{background:url(../images/nav_bg_03.jpg) repeat-x;font-size:15px;color:#e55f16;border-top: 3px solid #E55F16;}
+.nav a:hover{background:url(../images/nav_bg_03.jpg) repeat-x;font-size:15px;color:#e55f16;border-top: 3px solid #E55F16;}
+.footer{background-color:#373737;height:259px;}
+.f-top{width:260px;padding:14px 0 0 14px;float:left;}
+.f-top h3{font-size:17px;color:#fff;line-height:47px;height:47px;background-image:url(../images/foot-bg_03.jpg);background-repeat:no-repeat;background-position:left bottom;margin-bottom: 18px;}
+.f-top p{line-height:23px;font-size:14px;padding-bottom:17px;color:#6b6976;}
+.tags{background-color:#222;padding:0 9px;;margin:0 3px 4px 0;float:left;}
+.tags a{line-height:37px;color:#48474c;font-size:12px;}
+.tweets p{padding-left:30px;background-image:url(../images/tw.png);background-repeat:no-repeat;}
+.tweets span{color:#aaa;}
+.tweets h4{color:#fff;font-size:12px;padding-left:30px;}
+.footer .last{width:280px;float:right;padding:14px 20px 0 10px;}
+.pic-list{margin:0 3px 3px 0;float:left;}
+.bottom{background-color:#232323;height:52px;}
+.bottom-inner{height:52px;}
+.bottom img{width:95px;float:left;padding:13px 0;}
+.bottom p{float:right;font-size:20px;height:52px;line-height:52px;color:#fff;}
+.bottom span{color:#9b3a34;font-size:20px;height:52px;line-height:52px;}
+.up-top a{background-image:url(../images/move-top.png);background-repeat:no-repeat;position:fixed;right:0;bottom:0;height:25px;width:38px;padding:0 13px 13px 0;}
